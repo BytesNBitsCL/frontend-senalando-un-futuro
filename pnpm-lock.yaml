@@ -17,6 +17,12 @@ importers:
       '@hookform/resolvers':
         specifier: ^3.9.0
         version: 3.9.0(react-hook-form@7.53.0(react@18.3.1))
+      '@mediapipe/drawing_utils':
+        specifier: ^0.3.1675466124
+        version: 0.3.1675466124
+      '@mediapipe/pose':
+        specifier: ^0.5.1675469404
+        version: 0.5.1675469404
       '@mui/icons-material':
         specifier: ^6.1.0
         version: 6.1.4(@mui/material@6.1.4(@emotion/react@11.13.3(@types/react@18.3.11)(react@18.3.1))(@emotion/styled@11.13.0(@emotion/react@11.13.3(@types/react@18.3.11)(react@18.3.1))(@types/react@18.3.11)(react@18.3.1))(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.11)(react@18.3.1)
@@ -839,6 +845,12 @@ packages:
   '@mapbox/node-pre-gyp@1.0.11':
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==}
     hasBin: true
+
+  '@mediapipe/drawing_utils@0.3.1675466124':
+    resolution: {integrity: sha512-/IWIB/iYRMtiUKe3k7yGqvwseWHCOqzVpRDfMgZ6gv9z7EEimg6iZbRluoPbcNKHbYSxN5yOvYTzUYb8KVf22Q==}
+
+  '@mediapipe/pose@0.5.1675469404':
+    resolution: {integrity: sha512-DFZsNWTsSphRIZppnUCuunzBiHP2FdJXR9ehc7mMi4KG+oPaOH0Em3d6kr7Py+TSyTXC1doH88KcF28k2sBxsQ==}
 
   '@mui/core-downloads-tracker@6.1.4':
     resolution: {integrity: sha512-jCRsB9NDJJatVCHvwWSTfYUzuTQ7E0Km6tAQWz2Md1SLHIbVj5visC9yHbf/Cv2IDcG6XdHRv3e7Bt1rIburNw==}
@@ -5546,6 +5558,10 @@ snapshots:
     transitivePeerDependencies:
       - encoding
       - supports-color
+
+  '@mediapipe/drawing_utils@0.3.1675466124': {}
+
+  '@mediapipe/pose@0.5.1675469404': {}
 
   '@mui/core-downloads-tracker@6.1.4': {}
 
